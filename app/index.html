@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>slider_test</title>
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="../bower_components/normalize-css/normalize.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+  </head>
+  <body>
+
+<div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 600px; height: 300px;">
+    <!-- Slides Container -->
+    <div u="slides" style=" cursor: move; position: absolute; overflow: hidden; width: 350px; height: 150px;">
+        <div><img style="position: absolute;" u="image" src="http://placehold.it/350x150" /> <p style="position: relative; width: 100px; float:right;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, molestias officia culpa saepe quaerat fuga vero qui rerum voluptate autem deleniti corrupti vel reprehenderit dolorum iste dolore! Ratione, consequatur repellat.</p></div>
+        <div><img u="image" src="http://placehold.it/350x150" /></div>
+        <div><img u="image" src="http://placehold.it/350x150" /></div>
+        <div><img u="image" src="http://placehold.it/350x150" /></div>
+
+    </div>
+    <br>
+    <div class="arrows" style="margin: 155px auto; ">
+       <span style="margin-right: 320px;" u="arrowleft" class="jssora01l" ><i class="fa fa-chevron-left"></i></span>
+        <span u="arrowright" class="jssora01r" ><i class="fa fa-chevron-right"></i></span>
+    </div>
+</div>
+   
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/jssor-slider/js/jssor.slider.mini.js"></script>
+    <script src="../bower_components/underscore/underscore.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js scripts/main.js -->
+        <script src="scripts/main.js"></script>
+        <!-- endbuild -->
+</body>
+</html>

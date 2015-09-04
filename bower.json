@@ -1,0 +1,11 @@
+{
+  "name": "slider-test",
+  "private": true,
+  "dependencies": {
+    "font-awesome": "~4.4.0",
+    "jquery": "~2.1.1",
+    "jssor-slider": "*",
+    "normalize-css": "~3.0.1",
+    "underscore": "~1.6.0"
+  }
+}
