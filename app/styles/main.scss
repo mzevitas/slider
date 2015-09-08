@@ -1,0 +1,60 @@
+#slider1_container {
+	margin: 50px 100px; 
+	position: relative; 
+	top: 0px; 
+	left: 0px; 
+	width: 600px; 
+	height: 600px;
+}
+
+.sliders {
+	cursor: move; 
+	position: absolute; 
+	overflow: hidden; 
+	width: 950px; 
+	height: 310px;
+
+	p{
+	position: relative; 
+	width: 100px; 
+	float: right;
+	}
+}
+
+.jssort01{
+	width: 22px; 
+	height: 33px; 
+	margin-top:200px; 
+	padding-left: 100px; 
+	left:0px; 
+	bottom: 0px;
+}
+
+.thumbers {
+	height: 30px;
+
+	.p {
+		width:90px; 
+		padding-left: 10px
+	}
+
+	.t{
+	height: 60px;
+	}
+}
+
+
+.arrows{
+	margin-top: 30px; 
+	width: 300px;
+
+	.jssora01l {
+		  margin-left: -150px; 
+		  float: left;
+	}
+
+	.jssora01r {
+		margin-left: 10px;
+		float: right;
+	}
+}
