@@ -4,8 +4,16 @@ $(document).ready(function ($) {
         	$AutoPlay: true,
         	 $ArrowNavigatorOptions: {
                 $Class: $JssorArrowNavigator$,
-                $ChanceToShow: 2
-            } 
+                $ChanceToShow: 2,
+                $AutoCenter: 2
+            },
+            $ThumbnailNavigatorOptions: {
+                $Class: $JssorThumbnailNavigator$,
+                $ChanceToShow: 5,            
+                $AutoCenter: 2,
+                $DisplayPieces: 5
+
+            }
 
 
         };
