@@ -10,7 +10,7 @@ $(document).ready(function ($) {
             $ThumbnailNavigatorOptions: {
                 $Class: $JssorThumbnailNavigator$,
                 $ChanceToShow: 5,            
-                $AutoCenter: 2,
+                // $AutoCenter: 2,
                 $DisplayPieces: 5
 
             }
