@@ -1,5 +1,5 @@
 .container{
-	margin: 0 auto;
+	margin: 100px auto;
 	height: auto;
 }
 
@@ -21,36 +21,78 @@
 
 	p{
 	position: relative; 
-	width: 100px; 
+	width: 320px; 
+	height:310px;
+	padding-left: 30px;
+	padding-top: 30px;
 	float: right;
+	color: white;
+	margin: 0;
+	background-color: hsla(202,95%,7%,0.5);
+	}
+.leftSlide {
+	float: left;
+	color: white;
+	font-size: 40px;
+	width: 500px;
+	z-index: 1;
+	padding-top: 20px;
+	padding-left: 30px;
+
+	position: absolute;
+	h4 {
+		font-weight: 400;
+		margin: 0;
 	}
 }
+}
+
+
 
 .jssort01{
-	width: 222px; 
+	width: 160px; 
 	height: 20px; 
+	margin: 0 auto;
 	top: 325px !important;
 	// padding-left: 100px; 
 	left:0px; 
 	bottom: 0px;
 }
 
+.lengthclass {
+	width: 130px;
+	margin-left: 120px;
+
+	text-align: center;
+}
+
 
 .p {
 	z-index: 100;
-	height: 60px;
+	height: 70px;
+	// margin: 0 auto;
+		// margin-left: 70px;
+
 }
 
 	.w {
-		width:30px; 
+		width:1px;
+		height: 60px; 
 		margin: 0 auto;
 		z-index: 100;
 
 	}
 // the image
 	.t{
-	height: 50px;
-	z-index: 100;
+	    height: 34px;
+    width: 34px;
+    	z-index: 100;
+		margin: 0 auto;
+		border: 1px solid green;
+		background-color: green;
+		border-radius: 50px;
+		padding: 10px;
+
 
 	}
 
@@ -71,11 +113,14 @@ height: 100px;
 	.jssora01l {
 		  float: left;
 		  z-index: 1;
+		  margin-top: 10px;
+		  padding-left: 10px;
 		  position:absolute;
 	}
 
 	.jssora01r {
-		// margin-left: 10px;
+		margin-top: -28px;
+		padding-right: 10px;
 		float: right;
 	}
 } 

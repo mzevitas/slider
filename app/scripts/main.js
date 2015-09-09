@@ -11,7 +11,8 @@ $(document).ready(function ($) {
                 $Class: $JssorThumbnailNavigator$,
                 $ChanceToShow: 5,            
                 $AutoCenter: 2,
-                $DisplayPieces: 5
+                $DisplayPieces: 5,
+                $DisableDrag: true
 
             }
 
