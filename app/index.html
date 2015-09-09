@@ -17,10 +17,11 @@
   </head>
   <body>
 
-<div id="slider1_container" style=" margin: 50px 100px; position: relative; top: 0px; left: 0px; width: 600px; height: 600px;">
+<div class="container">
+<div id="slider1_container" >
     <!-- Slides Container -->
-    <div u="slides" style=" cursor: move; position: absolute; overflow: hidden; width: 350px; height: 150px;">
-        <div><img style="position: absolute;" u="image" src="http://placehold.it/350x150" /> <p style="position: relative; width: 100px; float:right;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, molestias officia culpa saepe quaerat fuga vero qui rerum voluptate autem deleniti corrupti vel reprehenderit dolorum iste dolore! Ratione, consequatur repellat.</p>
+    <div class="sliders" u="slides">
+        <div><img  u="image" src="http://placehold.it/350x150" /> <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, molestias officia culpa saepe quaerat fuga vero qui rerum voluptate autem deleniti corrupti vel reprehenderit dolorum iste dolore! Ratione, consequatur repellat.</p>
                     <img u="thumb" src="http://placehold.it/50x50"/>
         </div>
         <div>
@@ -37,28 +38,29 @@
         </div>
 
     </div>
-  
 
-     <div u="thumbnavigator" class="jssort01"
-        style="width: 100px; height: 100px; margin-top:200px; padding-left: 100px; left:0px; bottom: 0px; ">
-        <!-- Thumbnail Item Skin Begin -->
-        <div u="slides" style=" height: 30px; left: -5.5px !important;">
-            <div u="prototype" class="p" style="width:90px; padding-left: 10px">
-                <div class='w'><div u="thumbnailtemplate" style=" height: 60px;"class="t"></div></div>
-                <div class='c'></div>
+<br>
+  <div class="navcontrol">
+             <div u="thumbnavigator" class="jssort01" style="">
+                <!-- Thumbnail Item Skin Begin -->
+                <div u="slides" >
+                    <div u="prototype" class="p" >
+                        <div class='w'>
+                            <div u="thumbnailtemplate" style=" height: 60px;  "class="t"></div>
+                        </div>
+                        <div class='c'></div>
+                    </div>
+                </div>
+
+            <div class="arrows" >
+               <span u="arrowleft" class="jssora01l" ><i class="fa fa-chevron-left"></i></span>
+                <span u="arrowright" class="jssora01r" ><i class="fa fa-chevron-right"></i></span>
             </div>
         </div>
-        <br>
-        <!-- Arrows Start -->
-
-    <div class="arrows" style="margin-top: 30px; width: 300px; ">
-       <span style="    margin-left: -150px; float: left;" u="arrowleft" class="jssora01l" ><i class="fa fa-chevron-left"></i></span>
-
-        <span u="arrowright" class="jssora01r" style="marign-left: 10px;float: right;" ><i class="fa fa-chevron-right"></i></span>
-    </div>
+</div>
 </div>
     
-   
+
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
