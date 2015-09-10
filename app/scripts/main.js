@@ -13,10 +13,7 @@ $(document).ready(function ($) {
                 $AutoCenter: 2,
                 $DisplayPieces: 5,
                 $DisableDrag: true
-
             }
-
-
         };
         var jssor_slider1 = new $JssorSlider$('slider1_container', options);
     });
